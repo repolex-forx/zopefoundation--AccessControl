@@ -1,0 +1,11 @@
+{
+  "org": "zopefoundation",
+  "repo": "AccessControl",
+  "versions": [
+    {
+      "commit": "5746fe62282eede0279cde81fd1a75258fe07153",
+      "tag": "",
+      "parsed_at": "2026-11-02T21:03:44.959697+00:00"
+    }
+  ]
+}
