@@ -225,6 +225,185 @@
       ],
       "ast": [
         "aggregate/ast/617afa1e63e076642c2960badc3eccb1ab58e754/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/617afa1e63e076642c2960badc3eccb1ab58e754.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "acquisition",
+          "ecosystem": "PYPI",
+          "version": "6.4.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "Acquisition",
+          "githubUrl": "https://github.com/zopefoundation/Acquisition",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "authencoding",
+          "ecosystem": "PYPI",
+          "version": "6.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "AuthEncoding",
+          "githubUrl": "https://github.com/zopefoundation/AuthEncoding",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "btrees",
+          "ecosystem": "PYPI",
+          "version": "6.5.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "BTrees",
+          "githubUrl": "https://github.com/zopefoundation/BTrees",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "datetime",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "extensionclass",
+          "ecosystem": "PYPI",
+          "version": "6.5.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "ExtensionClass",
+          "githubUrl": "https://github.com/zopefoundation/ExtensionClass",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "persistence",
+          "ecosystem": "PYPI",
+          "version": "5.6.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "Persistence",
+          "githubUrl": "https://github.com/zopefoundation/Persistence",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "restrictedpython",
+          "ecosystem": "PYPI",
+          "version": "9.0.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "RestrictedPython",
+          "githubUrl": "https://github.com/zopefoundation/RestrictedPython",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "transaction",
+          "ecosystem": "PYPI",
+          "version": "5.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "transaction",
+          "githubUrl": "https://github.com/zopefoundation/transaction",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zexceptions",
+          "ecosystem": "PYPI",
+          "version": "6.0.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zExceptions",
+          "githubUrl": "https://github.com/zopefoundation/zExceptions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-component",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.component",
+          "githubUrl": "https://github.com/zopefoundation/zope.component",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-configuration",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.configuration",
+          "githubUrl": "https://github.com/zopefoundation/zope.configuration",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-deferredimport",
+          "ecosystem": "PYPI",
+          "version": "6.1.1",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.deferredimport",
+          "githubCommit": "bc77c0a073054ac4257ef8acd5fb872b0db0b53f",
+          "githubTag": "6.1.1",
+          "githubUrl": "https://github.com/zopefoundation/zope.deferredimport",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-interface",
+          "ecosystem": "PYPI",
+          "version": "8.7.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.interface",
+          "githubUrl": "https://github.com/zopefoundation/zope.interface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-publisher",
+          "ecosystem": "PYPI",
+          "version": "8.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.publisher",
+          "githubUrl": "https://github.com/zopefoundation/zope.publisher",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-schema",
+          "ecosystem": "PYPI",
+          "version": "8.1.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.schema",
+          "githubUrl": "https://github.com/zopefoundation/zope.schema",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-security",
+          "ecosystem": "PYPI",
+          "version": "8.5.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.security",
+          "githubUrl": "https://github.com/zopefoundation/zope.security",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-testing",
+          "ecosystem": "PYPI",
+          "version": "6.2.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.testing",
+          "githubUrl": "https://github.com/zopefoundation/zope.testing",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-testrunner",
+          "ecosystem": "PYPI",
+          "version": "6.4",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.testrunner",
+          "githubCommit": "975be756a3420e8cccc9647d34deb82686c1c52b",
+          "githubTag": "6.4",
+          "githubUrl": "https://github.com/zopefoundation/zope.testrunner",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],

@@ -1,0 +1,25 @@
+[2026-11-22T02:01:06Z] === ENRICH ITERATION 1 START | repo=zopefoundation/AccessControl sha=617afa1e ===
+[2026-11-22T02:01:06Z] [iter=1] PHASE START: enrich repo=zopefoundation/AccessControl sha=617afa1e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/617afa1e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/617afa1e63e076642c2960badc3eccb1ab58e754.nq.gz
+[2026-11-22T02:01:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T02:01:37Z] [iter=1] AST store loaded triples=459488 load_secs=5 mem_mb=808 MB
+[2026-11-22T02:01:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=808 MB
+[2026-11-22T02:01:38Z] [iter=1] LSP targets found call_sites=3920 imports=505 extends=213 implements=0 secs=1
+[2026-11-22T02:01:38Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=808 MB
+[2026-11-22T02:01:40Z] [iter=1] Position index built positions=31616 nodes_with_types=40844 secs=2 mem_mb=808 MB
+[2026-11-22T02:01:40Z] [iter=1] Step 3: Starting LSP resolution mem_mb=808 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:01:40Z] [iter=1] Resolving target type target_type=call_site count=3920
+[2026-11-22T02:01:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=src/AccessControl/tests/testZopeGuards.py
+[2026-11-22T02:02:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=2 resolved=522 errors=0 current=src/AccessControl/Implementation.py
+[2026-11-22T02:02:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=5 resolved=979 errors=0 current=src/AccessControl/PermissionMapping.py
+[2026-11-22T02:03:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=11 resolved=1559 errors=0 current=src/AccessControl/tests/test_safe_formatter.py
+[2026-11-22T02:03:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=19 resolved=2095 errors=0 current=src/AccessControl/rolemanager.py
+[2026-11-22T02:04:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=29 resolved=2638 errors=0 current=src/AccessControl/tests/testClassSecurityInfo.py
+[2026-11-22T02:05:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=47 resolved=3081 errors=0 current=.manylinux-install.sh
+[2026-11-22T02:05:15Z] [iter=1] Target type resolved target_type=call_site resolved=3082 errors=0 secs=215 mem_mb=808 MB
+[2026-11-22T02:05:15Z] [iter=1] Resolving target type target_type=import_statement count=505
+[2026-11-22T02:05:20Z] [iter=1] Target type resolved target_type=import_statement resolved=353 errors=0 secs=5 mem_mb=808 MB
+[2026-11-22T02:05:20Z] [iter=1] Resolving target type target_type=extends_clause count=213
+[2026-11-22T02:05:21Z] [iter=1] Target type resolved target_type=extends_clause resolved=92 errors=0 secs=2 mem_mb=808 MB
+[2026-11-22T02:08:26Z] [iter=1] Step 5: Writing final enrichment file triples=48550
+[2026-11-22T02:08:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/617afa1e63e076642c2960badc3eccb1ab58e754.nq.gz size_kb=1000
+[2026-11-22T02:08:27Z] [iter=1] PHASE END: enrich elapsed_s=440 elapsed_min=7.3 total_triples=48550
